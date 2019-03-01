@@ -1,0 +1,9 @@
+Controller oluştururken kullandığımız komut 
+
+rails generate controller Controller_adı değer değer
+
+şeklinde olmalı örneğin bir sayfa controllerı oluştururken 
+
+rails generate controller Pages index iletisim
+
+Gibi oluşturabiliriz. Bunun yanında controller isimleri büyük harfle başlamak zorundadır. İngilizce isim tercihi söz konusu olmalı ve çoğulluk belirten "s" takısı ile kullanılmalı.
