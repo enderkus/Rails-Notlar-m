@@ -1,0 +1,5 @@
+Rails ilk yüklendiğinde SQLite 1.4.0 ile geliyor ancak mevcutta hata ile karşılaşmak mümkün. Hata ile karşılaşılırsa
+
+'''gem uninstall sqlite3'''
+
+Ardından Gemfile içerisinde bulunan gem "sqlite3" -> Bununla değiştirilecek gem 'sqlite3','~> 1.3.6'
